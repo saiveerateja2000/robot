@@ -6,7 +6,8 @@ node() {
 		}
   stage('robot') {
 			echo "hello world2"
-	  		robot robot_test_project.robot
+			sh 'pip install robotframework robotframework-requests'
+	  		sh 'robot robot_test_project.robot'
 
 		}
   
