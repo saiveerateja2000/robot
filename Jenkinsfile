@@ -7,6 +7,7 @@ node() {
   stage('robot') {
 			echo "hello world2"
 			sh 'pip install robotframework robotframework-requests'
+	  		sh 'pip install robotframework-seleniumlibrary'
 	  		sh 'robot robot_test_project.robot'
 
 		}
