@@ -11,8 +11,8 @@ node() {
 		}
 	stage('Publish Results') {
         // Publish Robot Framework test results
-        		robot resultPath: 'results'
-			//robot archiveDirName: 'robot-plugin', outputPath: 'reports', overwriteXAxisLabel: ''
+        		//robot resultPath: 'results'
+			robot archiveDirName: 'robot-plugin', outputPath: 'reports', overwriteXAxisLabel: ''
 	
     }
   
