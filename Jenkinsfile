@@ -6,6 +6,8 @@ node() {
 		}
   stage('robot') {
 			echo "hello world2"
+	  		robot robot_test_project.robot
+
 		}
   
 }
